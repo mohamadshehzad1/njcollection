@@ -8,22 +8,22 @@ import "swiper/css";
 const categories = [
   {
     name: "Bridals",
-    image: "/assets/TS017131.jpg",
+    image: "/assets/ts017131.jpg",
     link: "/products/AllProducts",
   },
   {
     name: "Formals",
-    image: "/assets/TS017581.JPG",
+    image: "/assets/ts018174.jpg",
     link: "/products/AllProducts",
   },
   {
     name: "FS Luxe",
-    image: "/assets/TS017861.jpg",
+    image: "/assets/ts017861.jpg",
     link: "/products/AllProducts",
   },
   {
     name: "Menswear",
-    image: "/assets/TS017987.jpg",
+    image: "/assets/ts017987.jpg",
     link: "/products/AllProducts",
   },
 ];
