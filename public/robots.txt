@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+
+# Host
+Host: https://njcollection.com.pk
+
+# Sitemaps
+Sitemap: https://njcollection.com.pk/sitemap.xml
