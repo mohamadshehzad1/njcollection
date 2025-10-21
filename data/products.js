@@ -91,9 +91,9 @@ const products = [
     price: 7500,
     images: [
       "/assets/TS017898.jpg",
-      "/assets/TS017905.JPG",
-      "/assets/TS017934.JPG",
-      "/assets/TS017944.JPG",
+      "/assets/TS017905.jpg",
+      "/assets/TS017934.jpg",
+      "/assets/TS017944.jpg",
     ],
     details: [
       "Color: Peach",
