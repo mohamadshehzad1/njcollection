@@ -10,15 +10,15 @@ import Image from "next/image";
 const Hero = () => {
   // ✅ Use URLs instead of imports
   const desktopSlides = [
-    { image: "/assets/banner1.jpg" },
-    { image: "/assets/banner2.jpg" },
-    { image: "/assets/banner3.jpg" },
+    { image: "/assets-avif/banner1.avif" },
+    { image: "/assets-avif/banner2.avif" },
+    { image: "/assets-avif/banner3.avif" },
   ];
 
   const mobileSlides = [
-    { image: "/assets/ts017743.jpg" },
-    { image: "/assets/ts017934.JPG" },
-    { image: "/assets/ts017158.jpg" },
+    { image: "/assets-avif/ts017743.avif" },
+    { image: "/assets-avif/ts017934.avif" },
+    { image: "/assets-avif/ts017158.avif" },
   ];
 
   return (

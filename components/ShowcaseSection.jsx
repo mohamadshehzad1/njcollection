@@ -14,7 +14,7 @@ const ShowcaseSection = () => {
           {/* --- Column 1 --- */}
           <div className="relative">
             <Image
-              src="/assets/ts018056.jpg"
+              src="/assets-avif/ts018056.avif"
               alt="Luxury Kaftan"
               width={688}
               height={766}
@@ -35,7 +35,7 @@ const ShowcaseSection = () => {
           {/* --- Column 2 --- */}
           <div className="relative">
             <Image
-              src="/assets/ts017282.jpg"
+              src="/assets-avif/ts017282.avif"
               alt="Timeless Prints"
               width={688}
               height={766}
