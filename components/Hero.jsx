@@ -16,9 +16,12 @@ const Hero = () => {
   ];
 
   const mobileSlides = [
-    { image: "/assets-avif/ts017743.avif" },
-    { image: "/assets-avif/ts017934.avif" },
-    { image: "/assets-avif/ts017158.avif" },
+    { image: "/assets/winter collection/Winter Banner/1.jpg" },
+    { image: "/assets/winter collection/Winter Banner/2.jpg" },
+    { image: "/assets/winter collection/Winter Banner/7.jpg" },
+    { image: "/assets/winter collection/Winter Banner/6.jpg" },
+
+    
   ];
 
   return (

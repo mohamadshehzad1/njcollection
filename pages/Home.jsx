@@ -6,6 +6,7 @@ import ShowcaseSection from "../components/ShowcaseSection";
 import VideoSection from "../components/VideoSection";
 import Footer from "../components/Footer";
 import WhatsAppButton from "components/WhatsAppButton";
+import WinterCollection from "components/WinterCollection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Categories />
+      <WinterCollection />
       <NewArrivals />
       <ShowcaseSection />
       <VideoSection />

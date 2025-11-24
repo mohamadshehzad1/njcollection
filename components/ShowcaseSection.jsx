@@ -14,15 +14,15 @@ const ShowcaseSection = () => {
           {/* --- Column 1 --- */}
           <div className="relative">
             <Image
-              src="/assets-avif/ts018056.avif"
+              src="/assets/winter collection/Winter Banner/2.jpg"
               alt="Luxury Kaftan"
               width={688}
-              height={766}
+              height={800}
               className="mx-auto object-cover rounded-lg w-[456px] h-[500px] md:w-[688px] md:h-[766px]"
             />
             <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-center text-white">
               <p className="text-sm uppercase tracking-wide">New Arrival</p>
-              <h3 className="text-xl font-medium mt-1 mb-2">Luxury Kaftan</h3>
+              <h3 className="text-xl font-medium mt-1 mb-2">Winter Collection</h3>
               <a
                 href="/products/AllProducts"
                 className="text-sm underline tracking-wide hover:text-gray-200"

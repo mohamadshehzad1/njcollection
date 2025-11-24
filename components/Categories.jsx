@@ -7,8 +7,8 @@ import "swiper/css";
 
 const categories = [
   {
-    name: "Bridals",
-    image: "/assets-avif/ts017131.avif",
+    name: "Winter",
+    image: "/assets/winter collection/Winter Banner/1.jpg",
     link: "/products/AllProducts",
   },
   {
@@ -18,12 +18,12 @@ const categories = [
   },
   {
     name: "FS Luxe",
-    image: "/assets-avif/ts017861.avif",
+    image: "/assets-avif/ts017282.avif",
     link: "/products/AllProducts",
   },
   {
-    name: "Menswear",
-    image: "/assets-avif/ts017987.avif",
+    name: "LUXURY",
+    image: "/assets/winter collection/Winter Banner/5.jpg",
     link: "/products/AllProducts",
   },
 ];
