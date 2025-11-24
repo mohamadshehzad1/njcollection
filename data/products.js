@@ -131,6 +131,41 @@ const products = [
     shipping: "8 - 10 weeks",
   },
   {
+    id: 14,
+    name: "Lillan",
+    price: 5200,
+    images: [
+      "/assets/winter collection/9/9.jpg",
+      "/assets/winter collection/9/9.1.jpg",
+      "/assets/winter collection/9/9.2.jpg",
+      "/assets/winter collection/9/9.3.jpg",
+      "/assets/winter collection/9/9.4.jpg",
+      "/assets/winter collection/9/9.5.jpg",
+      "/assets/winter collection/9/9.6.jpg",
+      "/assets/winter collection/9/9.7.jpg",
+      "/assets/winter collection/9/9.8.jpg",
+      "/assets/winter collection/9/9.9.jpg",
+      "/assets/winter collection/9/9.10.jpg",
+      "/assets/winter collection/9/9.11.jpg",
+      "/assets/winter collection/9/9.12.jpg",
+      "/assets/winter collection/9/9.13.jpg",
+      "/assets/winter collection/9/9.14.jpg",
+
+
+    ],
+    details: [
+      "Color: Deep teal/greenish-grey base",
+      "Print: All-over multicolored floral print in shades of red, maroon, pink, and green",
+      "Neckline: Round neckline with a keyhole cut and tassle tie-up for added charm",
+      "Sleeves: Full-length with matching printed borders",
+      "Detailing: Delicate maroon and ethnic-style printed panels on the shoulder and sleeve ends",
+      "Includes: Shirt, trouser, and shawl",
+    ],
+    description:
+      "NJ Collection presents a sophisticated three-piece winter dress in soft marina fabric. The elegant, selfembroidered shirt features a classic collar and a front-open cut.",
+    shipping: "8 - 10 weeks",
+    },
+  {
     id: 7,
     name: "Peach Marina — 3PC",
     price: 7500,
@@ -309,6 +344,33 @@ shipping: "8 - 10 weeks",
         "NJ Collection presents a sophisticated three-piece winter dress in soft marina fabric. The elegant, selfembroidered shirt features a classic collar and a front-open cut.",
       shipping: "8 - 10 weeks",
       },
+      {
+        id: 14,
+        name: "Peach Marina — 3PC",
+        price: 7500,
+        images: [
+          "/assets/winter collection/10/10.jpg",
+          "/assets/winter collection/10/10.1.jpg",
+          "/assets/winter collection/10/10.2.jpg",
+          "/assets/winter collection/10/10.3.jpg",
+          "/assets/winter collection/10/10.4.jpg",
+          "/assets/winter collection/10/10.5.jpg",
+          "/assets/winter collection/10/10.6.jpg",
+          "/assets/winter collection/10/10.7.jpg",
+          "/assets/winter collection/10/10.8.jpg",
+          "/assets/winter collection/10/10.9.jpg",
+        ],
+        details: [
+          "Color: Peach",
+          "Fabric: winter dress with front-open cut shirt and contrast tassels",
+          "Style: 3pc suit",
+          "Embroidery: Self-embroidered",
+          "Includes: Shirt, trouser, and shawl",
+        ],
+        description:
+          "NJ Collection presents a sophisticated three-piece winter dress in soft marina fabric. The elegant, selfembroidered shirt features a classic collar and a front-open cut.",
+        shipping: "8 - 10 weeks",
+        },
 ];
 
 export default products;

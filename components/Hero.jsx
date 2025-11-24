@@ -20,6 +20,7 @@ const Hero = () => {
     { image: "/assets/winter collection/Winter Banner/2.jpg" },
     { image: "/assets/winter collection/Winter Banner/7.jpg" },
     { image: "/assets/winter collection/Winter Banner/6.jpg" },
+    { image: "/assets/winter collection/Winter Banner/9.jpg" },
 
     
   ];
