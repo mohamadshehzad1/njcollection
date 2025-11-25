@@ -7,6 +7,7 @@ const ProductDetails = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
 
   const phoneNumber = "923369766237";
+
   const message = `
 Hi! I'm interested in ${product.name}.
 Size: ${selectedSize || "Not selected"}
@@ -14,6 +15,14 @@ Style: ${selectedStyle || "Not selected"}
 Quantity: ${quantity}
 Price: ${product.price}
   `.trim();
+
+  // Icons for each details section
+  const sectionIcons = {
+    kurta: "👗",
+    dupatta: "🧣",
+    trouser: "👖",
+    general: "📝",
+  };
 
   return (
     <div className="space-y-8">
@@ -118,22 +127,49 @@ Price: ${product.price}
         <h3 className="font-semibold text-gray-900 mb-3 uppercase text-sm tracking-wide">
           Product Details
         </h3>
-        <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
-          {product.details && product.details.length > 0 ? (
-            product.details.map((detail, index) => (
-              <li key={index} className="flex items-start gap-2">
-                <span className="text-gray-800">•</span>
-                <span>{detail}</span>
-              </li>
-            ))
-          ) : (
-            <li className="text-gray-500">No additional details available.</li>
-          )}
-        </ul>
+
+        {/* Case 1: New structured format (object) */}
+        {!Array.isArray(product.details) && typeof product.details === "object" ? (
+          <div className="space-y-6">
+            {Object.entries(product.details)
+              .filter(([_, items]) => items && items.length > 0)
+              .map(([section, items]) => (
+                <div key={section}>
+                  <h4 className="font-medium text-gray-800 mb-2 capitalize flex items-center gap-2">
+                    <span>{sectionIcons[section] || "•"}</span>
+                    {section} Details
+                  </h4>
+
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    {items.map((item, index) => (
+                      <li key={index} className="flex gap-2">
+                        <span>•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+          </div>
+        ) : (
+          /* Case 2: Old simple array format */
+          <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
+            {product.details && product.details.length > 0 ? (
+              product.details.map((detail, index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <span className="text-gray-800">•</span>
+                  <span>{detail}</span>
+                </li>
+              ))
+            ) : (
+              <li className="text-gray-500">No additional details available.</li>
+            )}
+          </ul>
+        )}
       </div>
 
       {/* Description */}
-      {product.description && (
+      {product.description && product.description.trim() !== "" && (
         <div>
           <h3 className="font-semibold text-gray-900 mb-3 uppercase text-sm tracking-wide">
             Description
@@ -145,7 +181,7 @@ Price: ${product.price}
       )}
 
       {/* Shipping */}
-      {product.shipping && (
+      {product.shipping && product.shipping.trim() !== "" && (
         <div>
           <h3 className="font-semibold text-gray-900 mb-3 uppercase text-sm tracking-wide">
             Shipping

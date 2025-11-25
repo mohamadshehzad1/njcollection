@@ -38,7 +38,7 @@ const WinterCollection = () => {
             prevEl: ".winter-prev",
           }}
           slidesPerView={1.5}
-          spaceBetween={20}
+          spaceBetween={16}
           breakpoints={{
             640: { slidesPerView: 2.5, spaceBetween: 24 },
             1024: { slidesPerView: 4, spaceBetween: 32 },
